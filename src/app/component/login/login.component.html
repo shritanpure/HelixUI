@@ -1,0 +1,23 @@
+<p>login works!</p>
+<div class="wrapper">
+    <div class="logo">
+    </div>
+    <div class="text-center mt-4 name">
+        HELIX
+    </div>
+    <form (ngSubmit)="login()" class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="email" name="email" id="email" placeholder="Email" formControlName="email">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" name="password" id="pwd" placeholder="Password" formControlName="password">
+           
+        </div>
+        <button type="submit" class="btn mt-3">Login</button>
+    </form>
+    <div class="text-center fs-6">
+      <a routerLink="/register">Sign up</a>
+    </div>
+</div>

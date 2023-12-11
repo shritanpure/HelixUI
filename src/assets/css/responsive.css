@@ -1,0 +1,335 @@
+@media all and (min-width: 1740px) {
+  .container {
+    max-width: 1740px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 1739px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 95%;
+  }
+}
+@media all and (min-width: 1600px) {
+  .banner-content p {
+    max-width: 80%;
+  }
+  /* .banner-img{
+    margin-left: -150px;
+  } */
+}
+@media all and (max-width: 1599px) {
+  .dash-info-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media all and (min-width: 1440px){
+  .cstm-file-upload.cstm-height {
+    border-radius: 10px;
+    min-height: 360px;
+    display: grid;
+    place-items: center;
+}
+}
+@media all and (min-width: 1200px) {
+  .simple-search .form-control {
+    min-width: 350px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 95%;
+  }
+  .chat-profile {
+    padding: 20px;
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media all and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+    flex-grow: 1;
+  }
+  nav.navbar .nav-main .navbar-collapse > ul > li:not(:last-child) {
+    margin-right: calc(5px + 5 * ((100vw - 992px) / (1920 - 992)));
+  }
+  .sidebar.close:hover {
+    width: 300px;
+  }
+  .sidebar.close:hover .text {
+    opacity: 1;
+  }
+  .sidebar.close:hover .side-brand .logo {
+    max-width: 200px;
+  }
+  .sidebar header {
+    height: 100px;
+  }
+  .auth-btn-group {
+    margin-left: 40px;
+  }
+  .auth-btn-group .btn .auth-icon {
+    display: none;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* Header css end*/
+  .landing-page header .navbar {
+    padding: 10px 0;
+  }
+  nav.navbar .nav-main .navbar-collapse > ul > li > a {
+    padding: 12px 0px;
+    color: var(--black);
+  }
+  nav.navbar .nav-main .navbar-collapse > ul > li:not(:last-child) {
+    border-bottom: 1px solid #ecf7ff;
+  }
+  nav.navbar .nav-main .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background: #ffffff;
+    z-index: 99;
+    left: 0;
+    padding: 0 15px;
+    top: 73px;
+    border-top: 3px solid var(--mcolor);
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  }
+  .nav-main .social-icon {
+    display: none;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px;
+    border: unset;
+    font-size: 24px;
+    color: var(--black);
+  }
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+  nav.navbar .nav-main .navbar-collapse > ul > li > a:before {
+    content: unset;
+  }
+  .landing-page header {
+    background: var(--gradient-light);
+    box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 10%);
+  }
+  .main-content {
+    padding: 15px 20px;
+  }
+  .sidebar.close {
+    transform: translateX(-100%);
+  }
+  .sidebar.close ~ .page-layout {
+    left: 0;
+    width: 100%;
+  }
+  .sidebar .side-brand .logo {
+    max-width: 155px;
+  }
+  .auth-btn-group .btn .auth-icon {
+    display: block;
+  }
+  .auth-btn-group .btn .auth-text {
+    display: none;
+  }
+  .auth-btn-group .btn {
+    padding: 0;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .auth-btn-group .btn .auth-icon {
+    font-size: 16px;
+  }
+  .auth-btn-group {
+    margin-right: 40px;
+  }
+  .company_info {
+    justify-content: center;
+  }
+  .banner-shape {
+    display: none;
+  }
+  .get-started-content .icon-img {
+    max-width: 130px;
+  }
+  .top_right_content {
+    margin-right: 40px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .mobile-search {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media all and (max-width: 767px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form-select,
+  .form-control {
+    padding: 12px 20px;
+  }
+  .get-started-content {
+    gap: 15px;
+  }
+  /* sidebar */
+  .sidebar li a .nav-text {
+    display: none;
+  }
+  .sidebar {
+    min-height: calc(100vh - 50px);
+    width: 50px;
+  }
+  .page-layout {
+    left: 50px;
+    width: calc(100% - 50px);
+  }
+  .sidebar .menu {
+    height: calc(100vh - 80px);
+  }
+  .sidebar li.sub-menu > a::before{
+    content: unset;
+  }
+  .searchbar {
+    display: none;
+  }
+  .searchbar.open {
+    display: block;
+    z-index: 9;
+    background-color: #fff;
+  }
+  .searchbar {
+    position: absolute;
+    top: 70px;
+    max-width: calc(100% - 30px);
+    right: 0;
+    width: calc(100% - 30px);
+    z-index: 999;
+    margin: auto;
+    border: 1px solid var(--black-100);
+  }
+  .typeinput-wrapper .input-main-input {
+    padding-left: 0;
+  }
+  .timing-sechedule {
+    gap: 10px;
+  }
+  .timing-sechedule .time,
+  .timing-sechedule .day {
+    padding: 6px 18px;
+  }
+}
+@media all and (min-width: 576px) {
+  .modal-dialog {
+    max-width: 548px;
+  }
+  .auth-icon-btn {
+    flex-grow: 1;
+  }
+}
+@media all and (max-width: 575px) {
+  .auth-icon-btn-text {
+    display: none;
+  }
+  .auth-icon-btn {
+    height: 42px;
+    padding: 0;
+    width: 42px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .get-started-content .icon-img {
+    max-width: 90px;
+  }
+  .top_right_content {
+    gap: 15px;
+  }
+  .cstm-profile-upload {
+    flex-direction: column;
+  }
+  .cstm-pagination .page-link {
+    padding: 8px 10px;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .cstm-pagination .page-item.prev {
+    margin-right: 0;
+  }
+  .cstm-pagination .page-item.next {
+    margin-left: 0;
+  }
+  .cstm-pagination {
+    width: auto;
+  }
+  .cstm-pagination .pagination {
+    gap: 5px;
+  }
+}
+@media all and (max-width: 375px) {
+  .navbar-brand img {
+    max-width: 96px;
+  }
+  .auth-btn-group {
+    gap: 8px;
+  }
+  nav.navbar .nav-main .navbar-collapse {
+    top: 56px;
+  }
+  .sidebar .menu {
+    height: calc(100vh - 62px);
+  }
+  .sidebar {
+    top: 62px;
+  }
+  .searchbar {
+    top: 55px;
+  }
+}

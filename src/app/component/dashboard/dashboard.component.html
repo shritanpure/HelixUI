@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helix</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.component.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href='../../../assets/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href='../../../assets/css/shortcode.css'>
+    <link rel="stylesheet" type="text/css" href='../../../assets/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='../../../assets/css/responsive.css'>
+    <!-- remixicon css -->
+    <link rel="stylesheet" type="text/css" href='../../../assets/css/remixicon.css'>
+</head>
+
+<body>
+    <!-- header Start -->
+    <header>
+        <header class="header">
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="nav-main">
+                        <a class="navbar-brand" href="index.html"><img src="../../../assets/img/logo.svg" alt="logo" />
+                        </a>
+                        <!-- navbar-toggler -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="ri-menu-2-line"></i>
+                        </button>
+                        <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav liat-unstyled">
+                                <!-- Home -->
+                                <li class="nav-item active">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <!-- Blog -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <!-- About Us -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="top_right_content">
+                            <!-- searchbar -->
+                            <div class="simple-search">
+                                <span class="mobile-search fs-5"><i class="ri-search-line"></i></span>
+                                <form class="searchbar" method="">
+                                    <div class="form-group">
+                                        <input type="text" name="" placeholder="Search" class="form-control">
+                                        <span class="field-icon"><i class="ri-search-line"></i></span>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- notification -->
+                            <div class="notification_wrap">
+                                <a href="#" class="noti">
+                                    <img src="../../../assets/img/icon/svg/notification.svg" alt="svg/notification" />
+                                </a>
+                            </div>
+                            <!-- profile -->
+                            <div class="profile-dropdown">
+                                <button class="btn btn-inline" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#UserProfile">
+                                    <img src="../assets/img/profile.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container">
+                </div> -->
+            </nav>
+        </header>
+    </header>
+    <!-- header END -->
+    <!-- Sidebar STart -->
+    <!-- side bar starts -->
+    <nav class="sidebar">
+        <!-- menu-bar -->
+        <div class="menu-bar">
+            <div id="sidebar-menu" class="menu">
+                <ul class="menu-links">
+                    <!-- Dashboard -->
+                    <li class="nav-link active">
+                        <a href="dashboard.html">
+                            <span class="nav-link-icon">
+                                <i class="ri-dashboard-fill"></i>
+                            </span>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <!-- Configure  -->
+                    <li class="nav-link">
+                        <a href="configure.html">
+                            <span class="nav-link-icon">
+                                <i class="ri-shuffle-fill"></i>
+                            </span>
+                            <span class="text nav-text">Configure </span>
+                        </a>
+                    </li>
+                    <!-- Tickets  -->
+                    <li class="nav-link">
+                        <a href="ticket.html">
+                            <span class="nav-link-icon">
+                                <i class="ri-ticket-2-line"></i>
+                            </span>
+                            <span class="text nav-text">Tickets </span>
+                        </a>
+                    </li>
+                    <!-- Message -->
+                    <li class="nav-link">
+                        <a href="message.html" class="">
+                            <span class="nav-link-icon">
+                                <i class="ri-discuss-line"></i>
+                            </span>
+                            <span class="text nav-text">Message</span>
+                        </a>
+                    </li>
+                    <!-- Alert -->
+                    <li class="nav-link">
+                        <a href="alert.html" class="">
+                            <span class="nav-link-icon">
+                                <i class="ri-spam-line"></i>
+                            </span>
+                            <span class="text nav-text">Alert</span>
+                        </a>
+                    </li>
+                    <!-- Admin -->
+                    <li class="nav-link sub-menu">
+                        <a href="#" class="">
+                            <span class="nav-link-icon">
+                                <i class="ri-user-settings-line"></i>
+                            </span>
+                            <span class="text nav-text">Admin</span>
+                        </a>
+                        <!-- sub-menu -->
+                        <ul>
+                            <li class="">
+                                <!-- Configure source of the tickets -->
+                                <a href="./admin/configure-source-ticket.html">
+                                    <span class="text nav-text">Configure source of the tickets</span>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <!-- Messages and templates -->
+                                <a href="./admin/messages-template.html">
+                                    <span class="text nav-text">Messages and templates</span>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <!-- Documents -->
+                                <a href="./admin/document.html">
+                                    <span class="text nav-text">Documents</span>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <!-- Escalation matrix -->
+                                <a href="./admin/escalation-matrix.html">
+                                    <span class="text nav-text">Escalation matrix</span>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <!-- Auto mode -->
+                                <a href="#">
+                                    <span class="text nav-text">Auto mode</span>
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="menu-links">
+                    <!-- Logout -->
+                    <li class="nav-link logout-btn">
+                        <a href="#">
+                            <span class="nav-link-icon">
+                                <i class="ri-logout-box-r-line"></i>
+                            </span>
+                            <span class="text nav-text">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar END -->
+    <!-- page-layout Start -->
+    <section class="page-layout">
+        <!-- main-content start  -->
+        <div class="main-content">
+            <!-- main-page-title Row  -->
+            <div class="row">
+                <div class="col-12">
+                    <!-- main-page-title -->
+                    <div class="main-page-title">
+                        <h2 class="title">Dashboard</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- main-page-title Row END -->
+        </div>
+        <!-- main-content END -->
+    </section>
+    <!-- page-layout END -->
+
+    <!-- Modal Edit Profile -->
+    <div class="modal fade" id="UserProfile" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                        class="ri-close-line"></i></button>
+                <div class="modal-body">
+                    <!-- SignIn form Details  Start -->
+                    <h4 class="mb-4">Edit profile</h4>
+                    <div>
+                        <form class="profile-form">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <!-- cstm-profile-upload -->
+                                    <div class="form-group">
+                                        <label class="form-label">Avtar</label>
+                                        <div class="cstm-profile-upload">
+                                            <div class="upload-profile-img">
+                                                <img src="../assets/img/Edit_Profile.png" alt="Edit_Profile" />
+                                            </div>
+                                            <div class="upload-btn-wrapper">
+                                                <button class="btn btn-outline">Upload a file</button>
+                                                <input type="file" name="myfile" />
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <!-- User Name -->
+                                        <div class="form-group">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" name="" value="" placeholder="Username"
+                                                class="form-control" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <!-- Email ID -->
+                                        <div class="form-group">
+                                            <label class="form-label">Email ID.</label>
+                                            <input type="text" name="" value="" placeholder="Email ID."
+                                                class="form-control" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="">
+                                        <!-- Button  -->
+                                        <button type="" class="btn gradient-btn w-100">Save Changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- script -->
+<script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+<script src="../../../assets/js/jquery.min.js"></script>
+<script src="../../../assets/js/script.js"></script>
+</html>
